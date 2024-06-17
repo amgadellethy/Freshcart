@@ -131,7 +131,7 @@ export default function Navbar() {
             ""
           )}
 
-        {token ? <>  <Link to="/Cart" className="md:ms-auto md:relative hidden">
+        {token ? <>  <Link to="/Cart" className="md:ms-auto md:relative md:block hidden">
             <i className="fa-solid fa-cart-shopping"></i>
             {cartInfo === null ? (
               <span className="bg-primary rounded-full w-[17px] h-[17px] flex justify-center items-center  text-sm text-white font-bold absolute top-0 right-0 translate-x-1/2 -translate-y-1/2">
